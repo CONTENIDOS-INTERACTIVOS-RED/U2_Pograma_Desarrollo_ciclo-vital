@@ -22,7 +22,8 @@ export default {
       {
         nombreRuta: 'inicio',
         icono: 'fas fa-home',
-        titulo: 'Volver al inici',
+        titulo: 'Volver al inicio',
+        unidad: 'Unidad 2',
       },
       {
         nombreRuta: 'introduccion',
@@ -34,104 +35,34 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Desarrollo cognitivo y del lenguaje en niños y adolescentes',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Título de segundo nivel',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Acordeón',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Slider',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Desarrollo del lenguaje: etapas y factores influyentes',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo: 'Etapas del desarrollo del lenguaje',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
+            titulo: 'Factores que influyen en el desarrollo del lenguaje',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Audios',
+            titulo:
+              'Relación entre el desarrollo del lenguaje y el desarrollo cognitivo',
             hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Listado',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Unidad',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Carrusel',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Tablas',
-            hash: 't_3_2',
           },
         ],
       },
@@ -161,7 +92,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
+        download: 'downloads/Pograma_Desarrollo_ciclo vital_Unidad_2.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -178,109 +109,120 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Anaya, N. C. (2004). Diccionario de psicología. Ecoe Ediciones.',
+      link: '',
+    },
+    {
+      referencia:
+        'Aparicio Aznar, M., & Igualada, A. (2019). El desarrollo del lenguaje y la comunicación en la infancia. Editorial UOC.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/106676?page=7',
+    },
+    {
+      referencia:
+        'Bruner, J. S. (2018). Desarrollo cognitivo y educación. Ediciones Morata.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/119515',
+    },
+    {
+      referencia:
+        'Carmona, V. (2023, mayo 15). Descubre los factores clave que influyen en el lenguaje. Lingüística.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://linguistica.gea.lat/descubre-los-factores-clave-que-influyen-en-el-lenguaje/',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Feldman, R. (2015). Modelo del desarrollo cognoscitivo de Piaget.',
+      link: '',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'García, J. G. (2020). El constructivismo en la educación y el aporte de la teoría sociocultural de Vygotsky para comprender la construcción del conocimiento en el ser humano. Dilemas contemporáneos: Educación, política y valores.',
+      link: '',
+    },
+    {
+      referencia: 'Piaget, J. (1976). Desarrollo cognitivo. Fomtaine.',
+      link: '',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Rodríguez, J. J., & Santana, A. M. M. (2010). Adquisición y desarrollo del lenguaje. Psicología del desarrollo en la etapa de educación infantil, 2(5), 105-106.',
+      link: '',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Rodríguez, M. A. M. (1999). El enfoque sociocultural en el estudio del desarrollo y la educación. REDIE. Revista Electrónica de Investigación Educativa, 1(1), 16-37.',
+      link: '',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'Tajibo Association. (2023, octubre 24). La teoría de la adquisición del lenguaje de Noam Chomsky: La revolución del innatismo. Asociación Tajibo.',
+      link: 'https://tajibo.org/teoria-adquisicion-lenguaje-noam-chomsky/',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Vygotsky, L. S. (1979). El desarrollo de los procesos psicológicos superiores. Grijalbo.',
+      link: '',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Vygotsky, L. S. (2021). Pensamiento y lenguaje. Editorial Pueblo y Educación.',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Acomodación',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Proceso opuesto a la asimilación. Implica modificar los esquemas mentales existentes para adaptarse a nueva información o experiencias que no encajan en los esquemas previos',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Andamiaje',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es un proceso de enseñanza en el que el adulto o tutor proporciona apoyo al niño para que pueda realizar tareas que inicialmente están fuera de su alcance. Este apoyo se ajusta gradualmente a medida que el niño va adquiriendo nuevas habilidades',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Asimilación',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Proceso mediante el cual los nuevos conocimientos o experiencias se integran en los esquemas mentales preexistentes del individuo. Es decir, se ajusta la nueva información a lo que ya se conoce',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Equilibrio',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Estado de equilibrio entre la asimilación y la acomodación. El individuo busca constantemente un estado de equilibrio cognitivo, donde los esquemas mentales sean coherentes con la realidad',
     },
     {
-      termino: 'Moda',
+      termino: 'Factores',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Son todas las variables que influyen en el desarrollo cognitivo y del lenguaje, como factores biológicos (madurez del cerebro), ambientales (estimulación, interacción social), cognitivos (procesos de atención, memoria) y socioculturales (valores, creencias)',
     },
     {
-      termino: 'Diseña',
+      termino: 'Filogenética',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Hace referencia a los procesos evolutivos de una especie a lo largo del tiempo. En el contexto del desarrollo cognitivo, se refiere a los cambios evolutivos que han dado lugar a las capacidades cognitivas humanas',
     },
     {
-      termino: 'DIseño',
+      termino: 'Internalización',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Proceso mediante el cual las funciones mentales externas (como el lenguaje) se convierten en funciones internas del individuo. Por ejemplo, cuando un niño interioriza las reglas del lenguaje, las utiliza de forma espontánea',
     },
     {
-      termino: 'Tipología',
+      termino: 'Microgenética',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Estudia los cambios cognitivos que se producen en períodos cortos de tiempo, como minutos u horas. Permite observar de manera detallada los procesos de aprendizaje y resolución de problemas',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Ontogenética',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Se refiere al desarrollo de un individuo a lo largo de su vida. En el contexto del desarrollo cognitivo, se centra en los cambios que se producen desde la infancia hasta la edad adulta',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Organización',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Proceso mediante el cual los esquemas mentales se relacionan y se estructuran de manera jerárquica, formando sistemas más complejos de conocimiento',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Zona de Desarrollo Próximo (ZDP)',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Concepto desarrollado por Vygotsky que se refiere a la distancia entre lo que un niño puede hacer por sí mismo y lo que puede hacer con la ayuda de un adulto o compañero más competente. Es la zona en la que se produce el aprendizaje más efectivo',
     },
   ],
   complementario: [

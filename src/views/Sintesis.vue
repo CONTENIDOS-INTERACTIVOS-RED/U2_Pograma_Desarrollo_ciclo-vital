@@ -1,10 +1,10 @@
 <template lang="pug">
 .curso-main-container.creditos-vista
-  BannerInterno(:titulo="'FUNDAMENTACIÓN JURÍDICA - unidad 1'" :subTitulo="'SÍNTESIS'")
+  BannerInterno(:titulo="'unidad 2: Desarrollo cognitivo y del lenguaje en niños y adolescente'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
+    p.mb-4.mb-md-5 La unidad 2, <strong>Desarrollo cognitivo y del lenguaje en niños y adolescentes</strong>, aborda cómo se forman habilidades cognitivas y lingüísticas. Piaget describe un avance en etapas de complejidad creciente, mientras que Vygotsky destaca la influencia social a través de la "zona de desarrollo próximo", donde el apoyo facilita el aprendizaje. El desarrollo del lenguaje también se analiza desde los primeros sonidos hasta frases complejas, influido por el entorno. Esta comprensión permite crear estrategias pedagógicas que se adapten a cada etapa de desarrollo.
     figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
+      img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
 
 </template>
