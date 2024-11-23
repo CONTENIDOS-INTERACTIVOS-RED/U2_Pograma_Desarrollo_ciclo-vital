@@ -20,7 +20,7 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title Desarrollo y Ciclo Vital: Niños y Adolescentes
+              p.home-main-title.text-uppercase Desarrollo y Ciclo Vital: Niños y Adolescentes
               h1.home-title.mb-4.text-uppercase Desarrollo cognitivo y del lenguaje en niños y adolescentes
               p.descripcion.mb-4 El desarrollo cognitivo y del lenguaje en niños y adolescentes es fundamental, influido por teorías como las de Piaget y Vygotsky, quienes exploran cómo la maduración biológica y la interacción social enriquecen este proceso. El lenguaje y la cognición están interrelacionados, facilitando la capacidad para aprender, pensar y comunicarse. Las  etapas de desarrollo descritas por Piaget incluyen la sensoriomotora, preoperacional, operaciones concretas y formales, cada una con características específicas. Comprender estos conceptos es clave para fomentar un ambiente de aprendizaje que apoye el crecimiento integral.
 
