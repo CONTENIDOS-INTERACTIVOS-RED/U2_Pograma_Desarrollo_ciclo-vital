@@ -18,7 +18,7 @@
 
     .row.mb-5.mx-0
       .col-12.col-xl-8.d-flex.align-items-center.bg-azul-claro.p-4(data-aos="fade-left")
-        p.mb-0  En el campo del desarrollo del lenguaje, varias teorías han tratado de explicar cómo los seres humanos adquieren esta capacidad única. La teoría lingüística, propuesta por Noam Chomsky en 1957, plantea que el lenguaje es una estructura gobernada por reglas y que su adquisición es innata, distinta a cualquier otra habilidad. Esta
+        p.mb-0  En el campo del desarrollo del lenguaje, varias teorías han tratado de explicar cómo los seres humanos adquieren esta capacidad única. La teoría lingüística, propuesta por Noam Chomsky en 1957, plantea que el lenguaje es una estructura gobernada por reglas y que su adquisición es innata, distinta a cualquier otra habilidad.
       .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
         img.h-100(src='@/assets/curso/unidad/img-15.png', alt='Texto que describa la imagen')
 
@@ -72,8 +72,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://youtu.be/xcJtL7QggTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption.bg-white Video: Leyenda del video
+        <iframe width="1903" height="748" src="https://www.youtube.com/embed/PhMWTZMiJB0" title="Desarrollo del lenguaje" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     #t_2_2.titulo-segundo
       div.d-flex
@@ -131,7 +130,7 @@
       .col-12.col-lg-7(data-aos="fade-left")
         AcordionA(tipo="b")
           .div(titulo="Expresión de pensamientos y emociones")
-            p Piaget describe cuatro etapas del desarrollo cognitivo: sensoriomotora, preoperacional, de operaciones concretas y de operaciones formales. Cada etapa representa un cambio cualitativo en la manera en que la mente procesa la información.
+            p Permite expresar ideas y sentimientos, fortaleciendo la resolución de problemas y el pensamiento crítico.
           .div(titulo="Desempeño en tareas cognitivas")
             p Un vocabulario amplio mejora habilidades en matemáticas y comprensión lectora.
           .div(titulo="Desarrollo del pensamiento abstracto")
@@ -185,17 +184,22 @@
     h2 Conclusión y recursos adicionales
     p.mb-5 El desarrollo del lenguaje es un proceso complejo que se despliega en diversas etapas y está influido por múltiples factores. Su relación con el desarrollo cognitivo es esencial para el aprendizaje y la comunicación. Comprender teorías como las de Piaget y Vygotsky, las etapas del desarrollo del lenguaje y sus factores contribuyentes es clave para apoyar el crecimiento integral de niños y adolescentes.
 
-    .row.bg-azul-1.bg-full-width.py-4.mb-5
-      div.px-5.pb-md-3.py-4.d-flex
-        .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
-          h2.mb-4.pb-2.me-auto Adquisición y desarrollo del lenguaje
-          p.mb-5 Para profundizar en estos temas, el documento de Jorge Rodríguez, <strong>La adquisición y desarrollo del lenguaje</strong>, ofrece una revisión detallada de las dimensiones del lenguaje, la conexión entre mente y lenguaje, y sus implicaciones educativas. Este recurso complementa la comprensión teórica y práctica del desarrollo del lenguaje y su impacto en el aprendizaje y las habilidades interpersonales.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" href="https://iltemprana.wordpress.com/wp-content/uploads/2014/01/teorc3adas-y-enfoques-explicativos-sobre-adquisicic3b3n-y-desarrollo-del-lenguaje.pdf" target="_blank")
-            img.h-100(style="width: 49px" src='@/assets/template/pdf-icon-square.svg', alt='Texto que describa la imagen')
-            p.my-auto.p-2.px-3.text-small <strong>Anexo.</strong> Adquisición y desarrollo del lenguaje
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.redalyc.org/pdf/356/35601309.pdf") Carrera, B., & Mazzarella, C. (2001). Vygotsky: enfoque sociocultural. Educere, 5(13), 41-44.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/fHdQWmbhfdE") Sprouts español (2021). La Teoría del Desarrollo Cognitivo a Través de las Relaciones Sociales de Vygotsky [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
-        .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
-          img(src='@/assets/curso/unidad/img-34.png', alt='Texto que describa la imagen')
+
 
 </template>
 

@@ -60,14 +60,20 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        unidad: '',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        nombreRuta: 'actividadDidactica',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -84,19 +90,9 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/Pograma_Desarrollo_ciclo vital_Unidad_2.pdf',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
-      },
-      {
-        icono: 'far fa-registered',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
       },
     ],
   },
@@ -166,57 +162,57 @@ export default {
     {
       termino: 'Acomodación',
       significado:
-        'Proceso opuesto a la asimilación. Implica modificar los esquemas mentales existentes para adaptarse a nueva información o experiencias que no encajan en los esquemas previos',
+        'Proceso opuesto a la asimilación. Implica modificar los esquemas mentales existentes para adaptarse a nueva información o experiencias que no encajan en los esquemas previos.',
     },
     {
       termino: 'Andamiaje',
       significado:
-        'Es un proceso de enseñanza en el que el adulto o tutor proporciona apoyo al niño para que pueda realizar tareas que inicialmente están fuera de su alcance. Este apoyo se ajusta gradualmente a medida que el niño va adquiriendo nuevas habilidades',
+        'Es un proceso de enseñanza en el que el adulto o tutor proporciona apoyo al niño para que pueda realizar tareas que inicialmente están fuera de su alcance. Este apoyo se ajusta gradualmente a medida que el niño va adquiriendo nuevas habilidades.',
     },
     {
       termino: 'Asimilación',
       significado:
-        'Proceso mediante el cual los nuevos conocimientos o experiencias se integran en los esquemas mentales preexistentes del individuo. Es decir, se ajusta la nueva información a lo que ya se conoce',
+        'Proceso mediante el cual los nuevos conocimientos o experiencias se integran en los esquemas mentales preexistentes del individuo. Es decir, se ajusta la nueva información a lo que ya se conoce.',
     },
     {
       termino: 'Equilibrio',
       significado:
-        'Estado de equilibrio entre la asimilación y la acomodación. El individuo busca constantemente un estado de equilibrio cognitivo, donde los esquemas mentales sean coherentes con la realidad',
+        'Estado de equilibrio entre la asimilación y la acomodación. El individuo busca constantemente un estado de equilibrio cognitivo, donde los esquemas mentales sean coherentes con la realidad.',
     },
     {
       termino: 'Factores',
       significado:
-        'Son todas las variables que influyen en el desarrollo cognitivo y del lenguaje, como factores biológicos (madurez del cerebro), ambientales (estimulación, interacción social), cognitivos (procesos de atención, memoria) y socioculturales (valores, creencias)',
+        'Son todas las variables que influyen en el desarrollo cognitivo y del lenguaje, como factores biológicos (madurez del cerebro), ambientales (estimulación, interacción social), cognitivos (procesos de atención, memoria) y socioculturales (valores, creencias).',
     },
     {
       termino: 'Filogenética',
       significado:
-        'Hace referencia a los procesos evolutivos de una especie a lo largo del tiempo. En el contexto del desarrollo cognitivo, se refiere a los cambios evolutivos que han dado lugar a las capacidades cognitivas humanas',
+        'Hace referencia a los procesos evolutivos de una especie a lo largo del tiempo. En el contexto del desarrollo cognitivo, se refiere a los cambios evolutivos que han dado lugar a las capacidades cognitivas humanas.',
     },
     {
       termino: 'Internalización',
       significado:
-        'Proceso mediante el cual las funciones mentales externas (como el lenguaje) se convierten en funciones internas del individuo. Por ejemplo, cuando un niño interioriza las reglas del lenguaje, las utiliza de forma espontánea',
+        'Proceso mediante el cual las funciones mentales externas (como el lenguaje) se convierten en funciones internas del individuo. Por ejemplo, cuando un niño interioriza las reglas del lenguaje, las utiliza de forma espontánea.',
     },
     {
       termino: 'Microgenética',
       significado:
-        'Estudia los cambios cognitivos que se producen en períodos cortos de tiempo, como minutos u horas. Permite observar de manera detallada los procesos de aprendizaje y resolución de problemas',
+        'Estudia los cambios cognitivos que se producen en períodos cortos de tiempo, como minutos u horas. Permite observar de manera detallada los procesos de aprendizaje y resolución de problemas.',
     },
     {
       termino: 'Ontogenética',
       significado:
-        'Se refiere al desarrollo de un individuo a lo largo de su vida. En el contexto del desarrollo cognitivo, se centra en los cambios que se producen desde la infancia hasta la edad adulta',
+        'Se refiere al desarrollo de un individuo a lo largo de su vida. En el contexto del desarrollo cognitivo, se centra en los cambios que se producen desde la infancia hasta la edad adulta.',
     },
     {
       termino: 'Organización',
       significado:
-        'Proceso mediante el cual los esquemas mentales se relacionan y se estructuran de manera jerárquica, formando sistemas más complejos de conocimiento',
+        'Proceso mediante el cual los esquemas mentales se relacionan y se estructuran de manera jerárquica, formando sistemas más complejos de conocimiento.',
     },
     {
       termino: 'Zona de Desarrollo Próximo (ZDP)',
       significado:
-        'Concepto desarrollado por Vygotsky que se refiere a la distancia entre lo que un niño puede hacer por sí mismo y lo que puede hacer con la ayuda de un adulto o compañero más competente. Es la zona en la que se produce el aprendizaje más efectivo',
+        'Concepto desarrollado por Vygotsky que se refiere a la distancia entre lo que un niño puede hacer por sí mismo y lo que puede hacer con la ayuda de un adulto o compañero más competente. Es la zona en la que se produce el aprendizaje más efectivo.',
     },
   ],
   complementario: [

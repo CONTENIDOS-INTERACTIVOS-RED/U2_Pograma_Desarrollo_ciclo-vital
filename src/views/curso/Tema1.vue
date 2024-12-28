@@ -105,7 +105,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               p.text-bold.mb-3 Las Teorías de Piaget y de Vygotsky. 
-              p.text-small Para profundizar en este tema, se sugiere leer sobre la biografía de Jean Piaget. Conocer su vida ayuda a comprender cómo su contexto y experiencias influyeron en su enfoque sobre el desarrollo infantil, así como la evolución de sus ideas y su impacto en las prácticas pedagógicas, permitiendo construir un marco teórico propio.
+              p.text-small Dicho lo anterior, le dejamos el documento de profundización sobre estos conceptos y algunos otros que le serán de gran utilidad en este proceso de aprendizaje: De Piaget, T. D. D. C. (2007). Desarrollo Cognitivo: Las Teorías de Piaget y de Vygotsky.
             .col-sm-auto
               a.download-btn.boton.color-primario(href="https://cmapspublic2.ihmc.us/rid=1TL67NQ9X-4HCHW6-3M8Q/teorias_desarrollo_cognitivo_0.pdf " target="_blank")
                 span.text-small Ir al sitio
@@ -209,7 +209,7 @@
           img(src='@/assets/curso/unidad/piaget_3.png', alt='Texto que describa la imagen')
           figcaption.bg-white Imagen tomada de Fernández y Tamaro. (2004) 
           
-    .tarjeta.box-shadow.p-3(data-aos="fade-up")
+    .tarjeta.box-shadow.p-3(data-aos="fade-up").mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/template/pdf-icon-pill.svg")
@@ -223,6 +223,21 @@
                 span.text-small Descargar
                 i.fas.fa-arrow-right
 
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0 
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://cmapspublic2.ihmc.us/rid=1TL67NQ9X-4HCHW6-3M8Q/teorias_desarrollo_cognitivo_0.pdf") De Piaget, T. D. D. C. (2007). Desarrollo Cognitivo: Las Teorías de Piaget y de Vygotsky.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/yYFhPO5pArc") Sprouts español (2020). La Teoría del Desarrollo Cognitivo de Piaget [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 
 </template>
