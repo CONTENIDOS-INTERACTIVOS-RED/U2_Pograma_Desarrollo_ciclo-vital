@@ -80,6 +80,8 @@
       .col-12.col-md-6.col-lg-3.offset-lg-1
         figure
           img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+
+
 </template>
 
 <script>
